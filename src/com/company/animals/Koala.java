@@ -19,4 +19,13 @@ public class Koala extends Animal {
     public void sleep() {
         System.out.println("Koala is sleeping");
     }
+
+    @Override
+    public String toString() {
+        return "Koala{" +
+                "name='" + name + '\'' +
+                ", weight=" + weight +
+                ", age=" + age +
+                '}';
+    }
 }

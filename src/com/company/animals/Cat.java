@@ -23,4 +23,15 @@ public class Cat extends Animal {
     public void sleep() {
         System.out.println("Cat is sleeping");
     }
+
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", weight=" + weight +
+                ", age=" + age +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

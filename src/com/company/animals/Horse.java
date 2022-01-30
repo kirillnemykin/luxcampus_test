@@ -23,4 +23,15 @@ public class Horse extends Animal {
     public void sleep() {
         System.out.println("Horse is sleeping");
     }
+
+
+    @Override
+    public String toString() {
+        return "Horse{" +
+                "name='" + name + '\'' +
+                ", weight=" + weight +
+                ", age=" + age +
+                ", speed=" + speed +
+                '}';
+    }
 }
